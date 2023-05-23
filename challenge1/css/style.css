@@ -1,0 +1,141 @@
+header {
+	font-family: 'Vina Sans', cursive;
+	background: #FFFFFF;
+	padding: 10px 0 50px 20px;
+}
+
+.imagem1 {
+	width: 10%;
+	float: left;
+}
+
+.titulo-principal {
+	font-size: 2em;
+	text-align: left;
+	padding-top: 50px;
+}
+
+main {
+	display: flex;
+	padding: 0 50px 70px 20px;
+}
+
+
+.imagem2 {
+	width: 42%;
+	float: left;
+	position: absolute;
+	margin-left: 50px;
+}
+
+.textarea1 {
+	margin: 135px 0 0 110px;
+	border: none;
+	float: left;
+	position: absolute;
+	text-transform: lowercase;
+}
+
+.alerta {
+	position: absolute;
+	float: left;
+	margin: 450px 0 0 110px;
+	font-weight: bold;
+}
+
+.botao {
+	position: inherit;
+	width: 10%;
+}
+
+.botao1 {
+	float: left;
+	margin: 150px 0 0 665px;
+	height: 50px;
+	width: 200px;
+	background-color: #ADFF2F;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	font-family: 'Vina Sans', cursive;
+	font-weight: bold;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.botao2 {
+	float: left;
+	margin: 50px 0 0 665px;
+	height: 50px;
+	width: 200px;
+	background-color: #ADFF2F;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	font-family: 'Vina Sans', cursive;
+	font-weight: bold;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+
+.botao3 {
+	float: left;
+	margin: 150px 0 0 800px;
+	height: 25px;
+	width: 100px;
+	background-color: #ADFF2F;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.textarea1, .textarea2:focus {
+	outline: none;
+}
+
+.mensagemsaida {	
+	display: inline-block;
+	float: right;
+	width: 33%;
+	vertical-align: top;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	border: 4px solid #ADFF2F;
+	border-radius: 10px;
+}
+
+.textarea2 {
+	border: none;
+	float: right;
+	text-transform: lowercase;
+}
+
+.imagem3 {
+	border: none;
+	position: absolute;
+}
+
+.imagem4 {
+	width: 90%;
+	float: center;
+}
+
+footer {
+	text-align: center;
+	background: url("rodape.jpg");
+	padding: 20px 0;
+}
+
+.logo {
+	width: 10%;
+	padding: 10px 0;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 12px;
+	margin: 20px 0 0;
+	text-align: center;
+	font-weight: bold;
+}
